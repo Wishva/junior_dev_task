@@ -1,0 +1,66 @@
+/*make the page width 80% when the minimum size is = 1200px */
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 80%;
+    }
+}
+
+/*make the footer scrolled with page and fixed to bottom */
+
+.page-wrap{
+    /* what we already have */
+    min-height: 90vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    flex-grow: 1;
+}
+
+
+/*view product page title */
+#proList{
+    font-size: 30px;
+}
+
+/*view products styling*/
+
+.viewBox{
+    border: 2px solid black;
+    font-weight: bold;
+}
+
+/*add shadows to the buttons*/
+
+.addBtn{
+    box-shadow: 3px 3px;
+    color: black;
+}
+
+.mDeleteBtn{
+    box-shadow: 3px 3px;
+    color: black;
+}
+
+.cancelBtn{
+    box-shadow: 3px 3px;
+    color: black;
+}
+.saveBtn{
+    box-shadow: 3px 3px;
+    color: black;
+}
+
+/*show errors in fields validations*/
+.errorRole{
+    border-color: red;
+    color: red;
+}
+/*show error message in red color*/
+.Errormsg
+{
+    color: red;
+}
