@@ -1,11 +1,6 @@
 {
   "require": {
-    "squizlabs/php_codesniffer": "^3.5.7",
-    "phpmd/phpmd": "^2.10.2",
-    "friendsofphp/php-cs-fixer": "^2.18",
-    "phpmailer/phpmailer": "^6.1",
-    "ext-mysqli": "*",
-    "guzzlehttp/guzzle": "^7.4"
+    "ext-mysqli": "*"
   },
   "autoload": {
     "psr-4": {
