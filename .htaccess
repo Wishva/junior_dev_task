@@ -4,7 +4,7 @@ Order deny,allow
 Allow from *
 
 # ------------------------------------------
-# Rewrite so that php extentions are not shown
+# Hide PHP extension
 RewriteEngine on
 
 RewriteCond %{REQUEST_FILENAME} !-d
