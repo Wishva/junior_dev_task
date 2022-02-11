@@ -7,7 +7,9 @@ use mysqli;
 
 class ProductFunctions extends ProductLogic
 {
-    use ProductValidation;
+    use ProductValidation; // use the ProductValidation trait
+
+    //some of the product properties are public because to call as object properties in index page
 
     protected $dbCon;
     public $productSku;

@@ -1,0 +1,5 @@
+Installation
+
+1.install the sql file to the phpMyAdmin
+2.install composer.json dependencies and update the project
+3.run the project
