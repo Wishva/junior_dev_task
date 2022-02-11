@@ -132,11 +132,11 @@ include_once('header.php');
                     </div>
                 </div>
 
-                <div class="form-group row mt-5 d-none">
+               <!-- <div class="form-group row mt-5 d-none">
                     <div class="alert alert-danger col-sm-5 mt-1 ml-3 mr-3" role="alert" id="errorMessage">
 
                     </div>
-                </div>
+                </div>-->
 
             </form>
 
